@@ -1,0 +1,1042 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <title>eQuest-Solutions Frontend UI Practical Task</title>
+      <!-- CSS -->
+      <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+      <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+      <link rel="stylesheet" type="text/css" href="css/slick.min.css">
+      <link rel="stylesheet" type="text/css" href="css/menu.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body>
+      <!-- header -->
+      <header class="theme-header">
+         <div class="theme-tagline">
+            <div class="container text-center">
+               <p>Black Friday Cyber Monday Sales!</p>
+            </div>
+         </div>
+         <div class="container d-flex header-view">
+            <div class="logo">
+               <a href="index01.html" title="HOLA" class="white-logo"><img src="images/logo.png" alt="Logo White" /></a>
+               <a href="index01.html" title="HOLA" class="black-logo"><img src="images/logo-black.png" alt="Logo Black" /></a>
+            </div>
+            <div class="header-right">
+               <div class="header_right_menu">
+                  <div class="navigation">
+                     <a href="javascript:void(0);" title="Close" class="navigation-close"><span></span></a>
+                     <ul class="menu">
+                        <li><a href="#" title="New Arrivals">New Arrivals</a></li>
+                        <li>
+                           <a href="#" title="Swimwear">Swimwear </a>
+                           <ul class="mega-menu">
+                              <li>
+                                 <div class="shop-menu">
+                                    <h4>Shop</h4>
+                                    <a href="#" title="Shop all">Shop all</a>
+                                    <a href="#" title="One Pieces">One Pieces</a>
+                                    <a href="#" title="Tops">Tops</a>
+                                    <a href="#" title="Bottoms">Bottoms</a>
+                                    <a href="#" title="Tankinis">Tankinis</a>
+                                    <a href="#" title="Surf Suits & Rash Vests">Surf Suits & Rash Vests</a> 
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="shop-menu">
+                                    <h4>Collections</h4>
+                                    <a href="#" title="Elite">Elite</a>
+                                    <a href="#" title="Tango">Tango</a>
+                                    <a href="#" title="Wildside">Wildside</a>
+                                    <a href="#" title="Chamarel">Chamarel</a>
+                                    <a href="#" title="Messina">Messina</a>
+                                    <a href="#" title="One Eco Essentials">One Eco Essentials</a> 
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="shop-menu">
+                                    <a href="#"><img src="images/collection-banner-menu.png" alt=""></a>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div class="shop-menu">
+                                    <a href="#"></a><img src="images/collection-banner-menu-1.png" alt=""></a>
+                                 </div>
+                              </li>
+                           </ul>
+                        </li>
+                        <li><a href="#" title="Collections"> Collections</a></li>
+                        <li><a href="#" title=" About Us "> About Us </a></li>
+                        <li>
+                           <a href="#" title="Demos">Demos</a>
+                           <ul>
+                              <li><a href="#" title="Demos 01">Demos 01</a></li>
+                              <li><a href="#" title="Demos 02">Demos 02</a></li>
+                              <li><a href="#" title="Demos 03">Demos 03</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <a href="javascript:void(0);" title="Menu" class="navigation-open"><span></span></a>
+            </div>
+            <div class="header-right-links">
+               <div class="myaccount_section">
+                  <div class="myaccount_box">
+                     <a href="javascript:void(0);" class="myaccount_div" title="My Account"><span class="account-icon"></span>Account</a>
+                     <div class="myaccount-open head_dropdown">
+                        <ul>
+                           <li><a href="#" title="Login">Login</a></li>
+                           <li><a href="#" title="Register">Register</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="search-box">
+                  <a href="javascript:void(0);" title="Saerch" class="search-button">
+                  <img src="images/search-icon.png" alt="search-icon" class="white-search">
+                  <img src="images/black-search-icon.png" alt="search-icon" class="black-search">
+                  </a>
+               </div>
+               <div class="header_cart">
+                  <a href="javascript:void(0);" title="Cart" class="carticonmain">
+                  <img src="images/cart-icon.png" alt="cart-icon" class="white-cart">
+                  <img src="images/black-cart-icon.png" alt="cart-icon" class="black-cart">
+                  </a>
+               </div>
+            </div>
+         </div>
+      </header>
+      <div class="search-popup" style="display: none;">
+         <span class="search-close" title="Close"></span>
+         <div class="search-form">
+            <form>
+               <input type="text" placeholder="Search..." class="search-input">
+               <input type="submit" value="" class="search-submit">
+            </form>
+         </div>
+      </div>
+      <!-- && Header Section -->
+      <!-- Banner Slider -->
+      <div class="container-main home-page">
+         <section id="home-banners" class="home-banners">
+            <div class="banner-slider owl-carousel">
+               <div class="slide-item">
+                  <img src="images/banner.png" alt="" />
+                  <div class="banner-caption">
+                     <span class="h1">Maximum impact</span>
+                     <p>Shop  our collection of glamorous swimsuits and mix-and-match bikinis.</p>
+                     <div class="banner_btn"><a href="#" title="Enquire Now" class="button button-primary ">Shop New Arrivals</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="slide-item">
+                  <img src="images/banner.png" alt="" />
+                  <div class="banner-caption">
+                     <span class="h1">Maximum impact</span>
+                     <p>Shop  our collection of glamorous swimsuits and mix-and-match bikinis.</p>
+                     <div class="banner_btn"><a href="#" title="Enquire Now" class="button button-primary ">Shop New Arrivals</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="slide-item">
+                  <img src="images/banner.png" alt="" />
+                  <div class="banner-caption">
+                     <span class="h1">Maximum impact</span>
+                     <p>Shop  our collection of glamorous swimsuits and mix-and-match bikinis.</p>
+                     <div class="banner_btn"><a href="#" title="Enquire Now" class="button button-primary ">Shop New Arrivals</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+      <!-- && Banner Slider -->
+      <!-- Product Slider -->
+      <div class="product-slider pt-90 pb-90">
+         <div class="container">
+            <div class="section-heading">
+               <h2 class="h2">Our Collections</h2>
+               <a href="#" title="View all">View all</a>
+            </div>
+            <div class="gallery-slider-main">
+               <div class="gallery_slider owl-carousel">
+                  <div class="item">
+                     <div class="product-block">
+                        <div class="product-img">
+                           <img src="images/collection-img-01.png" alt="">
+                        </div>
+                        <div class="product-caption">
+                           <a href="#" class="product-name">Black Friday</a>
+                           <a href="#" class="product-btn">View</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="product-block">
+                        <div class="product-img">
+                           <img src="images/collection-img-02.png" alt="">
+                        </div>
+                        <div class="product-caption">
+                           <a href="#" class="product-name">One Piece Swimwear</a>
+                           <a href="#" class="product-btn">View</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="product-block">
+                        <div class="product-img">
+                           <img src="images/collection-img-03.png" alt="">
+                        </div>
+                        <div class="product-caption">
+                           <a href="#" class="product-name">Multifit</a>
+                           <a href="#" class="product-btn">View</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="product-block">
+                        <div class="product-img">
+                           <img src="images/collection-img-01.png" alt="">
+                        </div>
+                        <div class="product-caption">
+                           <a href="#" class="product-name">Black Friday</a>
+                           <a href="#" class="product-btn">View</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="product-block">
+                        <div class="product-img">
+                           <img src="images/collection-img-02.png" alt="">
+                        </div>
+                        <div class="product-caption">
+                           <a href="#" class="product-name">One Piece Swimwear</a>
+                           <a href="#" class="product-btn">View</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="product-block">
+                        <div class="product-img">
+                           <img src="images/collection-img-03.png" alt="">
+                        </div>
+                        <div class="product-caption">
+                           <a href="#" class="product-name">Multifit</a>
+                           <a href="#" class="product-btn">View</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="product-block">
+                        <div class="product-img">
+                           <img src="images/collection-img-01.png" alt="">
+                        </div>
+                        <div class="product-caption">
+                           <a href="#" class="product-name">Black Friday</a>
+                           <a href="#" class="product-btn">View</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="product-block">
+                        <div class="product-img">
+                           <img src="images/collection-img-02.png" alt="">
+                        </div>
+                        <div class="product-caption">
+                           <a href="#" class="product-name">One Piece Swimwear</a>
+                           <a href="#" class="product-btn">View</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="product-block">
+                        <div class="product-img">
+                           <img src="images/collection-img-03.png" alt="">
+                        </div>
+                        <div class="product-caption">
+                           <a href="#" class="product-name">Multifit</a>
+                           <a href="#" class="product-btn">View</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- && Banner Slider -->
+      <!-- theme-advertisements -->
+      <section class="theme-advertisements pt-90 pb-90">
+         <div class="container">
+            <div class="row">
+               <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                  <figure class="theme-advertisement">
+                     <a href="#" title="Black Friday" class="theme-advertisement-img"><img src="images/sale-now.png" alt="Black Friday" /></a>
+                     <figcaption>
+                        <span class="small-title">sale now on</span>
+                        <h2 class="theme-advertisement-title"><a href="#" title="Black Friday">Black Friday</a></h2>
+                        <a href="#" title="Find Out More" class="button button-primary">Find Out More</a>
+                     </figcaption>
+                  </figure>
+               </div>
+               <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                  <figure class="theme-advertisement">
+                     <a href="#" title="Maximum impact" class="theme-advertisement-img"><img src="images/new-arrival.png" alt="Maximum impact" /></a>
+                     <figcaption>
+                        <span class="small-title">New arrivals</span>
+                        <h2 class="theme-advertisement-title"><a href="#" title="Maximum impact">Maximum impact</a></h2>
+                        <a href="#" title="Find Out More" class="button button-primary">Find Out More</a>
+                     </figcaption>
+                  </figure>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- && theme-advertisements -->
+      <!-- story-section -->
+      <section class="story-section pt-90 pb-90">
+         <div class="container">
+            <div class="section-title text-center">
+               <img src="images/cursive-writting-img.png" alt="cursive-writting">
+               <span class="subtitle">DESIGNED BY WOMEN FOR WOMEN</span>
+               <h2>“The essence of the Australian beach lifestyle through relaxed escapism, a celebration of form and function, confidence and sustainable ideas.”</h2>
+            </div>
+            <div class="story-block">
+               <div class="row">
+                  <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 flex">
+                     <div class="story-img">
+                        <img src="images/story-img-01.png" alt="story-img">
+                     </div>
+                  </div>
+                  <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 flex">
+                     <div class="story-desc">
+                        <img src="images/stars.png" alt="stars">
+                        <h2>The Elite Story</h2>
+                        <p>Discover our Elite Spliced Multifit One Piece, featuring removable soft cups, adjustable & convertible straps, & our signature powermesh support front & back.</p>
+                        <a href="#" title="Shop Elite One Piece">Shop Elite One Piece</a>
+                     </div>
+                     <div class="right-story-img"><img src="images/story-img-02.png" alt="story-img"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- && story-section -->
+
+      <!-- CTA-section -->
+      <section id="call_section" class="pt-90 pb-90">
+         <div class="call_bg_img pb_bg_section" style="background: url(images/our-vision-banner.png) no-repeat center fixed">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-12 ">
+                     <div class="call_main_box text-center">
+                        <span class="sub-title">our vision</span>
+                        <div class="title_main text-center white_title">To empower women globally to celebrate summer with confidence.</div>
+                        <p>Luxurious high quality pieces that are designed to last.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- && CTA-section -->
+
+      <!-- story-section -->
+      <section class="story-section loha-summer pt-90 pb-90">
+         <div class="container">
+            <div class="story-block">
+               <div class="row">
+                  <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                     <div class="story-desc">
+                        <img src="images/stars.png" alt="stars">
+                        <h2>The Elite Story</h2>
+                        <p>Discover our Elite Spliced Multifit One Piece, featuring removable soft cups, adjustable & convertible straps, & our signature powermesh support front & back.</p>
+                        <a href="#" title="Shop Elite One Piece">Shop Elite One Piece</a>
+                     </div>
+                     <div class="right-story-img"><img src="images/lola-shimmer-01.png" alt="story-img"></div>
+                  </div>
+                  <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                     <div class="story-img">
+                        <img src="images/lola-shimmer.png" alt="story-img">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- && story-section -->
+
+      <!-- project_info_section -->
+      <section id="project_info_section" class="pt-90 pb-90">
+         <div class="container">
+            <h2 class="text-center">More for you. Tango with us.</h2>
+            <div class="row project_info_row">
+               <div class="col-12 col-sm-12 col-md-4 col-lg-4 project_info_col">
+                  <div class="project_info_section text-center">
+                     <div class="img_box">
+                        <a href="#" title="Tango with me" class="img_main" >
+                        <img src="images/tango-img-01.png" alt="tango-img-01" title="tango-img-01"/>
+                        </a>
+                     </div>
+                     <div class="project_info_title">
+                        <a href="#" title="Tango with me" class="title_info_main">Tango with me</a>
+                     </div>
+                     <p>Discover the alluring new tropical tango print, inspired by palm trees, beach escapes, & lush tropical settings.</p>
+                     <div class="project_info_btn">
+                        <a href="#" title="Product Range" class="button button-secondary ">Shop Tango</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-sm-12 col-md-4 col-lg-4 project_info_col">
+                  <div class="project_info_section text-center">
+                     <div class="img_box">
+                        <a href="#" title="Tango High Waist Gathered Side Pant" class="img_main" >
+                        <img src="images/tango-img-02.png" alt="tango-img-02" title="tango-img-02"/>
+                        </a>
+                     </div>
+                     <div class="project_info_title">
+                        <a href="#" title="Tango High Waist Gathered Side Pant" class="title_info_main">Tango High Waist Gathered Side Pant</a>
+                     </div>
+                     <p>If there’s one theme that inspires us the most it’s palm trees, beach escapes and lush tropical settings.</p>
+                     <div class="project_info_btn">
+                        <a href="#" title="View More" class="button button-secondary ">Shop Now</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-sm-12 col-md-4 col-lg-4 project_info_col">
+                  <div class="project_info_section text-center">
+                     <div class="img_box">
+                        <a href="#" title="Cross Front Multifit Bra Top" class="img_main" >
+                        <img src="images/tango-img-03.png" alt="tango-img-03" title="tango-img-03"/>
+                        </a>
+                     </div>
+                     <div class="project_info_title">
+                        <a href="#" title="Cross Front Multifit Bra Top" class="title_info_main">Cross Front Multifit Bra Top</a>
+                     </div>
+                     <p>Featuring a luxe V neckline, thick & supportive shoulder straps, & hidden soft cups, this shape offers the perfect amount of lift & support.</p>
+                     <div class="project_info_btn">
+                        <a href="#" title="OuR Work" class="button button-secondary ">Shop Tango</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- && project_info_section -->
+
+      <!-- Black Friday Sale  -->
+      <section class="product-shop-section pt-90 pb-90">
+         <div class="product-slider">
+            <div class="container">
+               <div class="section-heading">
+                  <h2 class="h2">Black Friday Sale</h2>
+                  <a href="#" title="View all">View all</a>
+               </div>
+               <div class="gallery-slider-main">
+                  <div class="gallery_slider owl-carousel">
+                     <div class="item">
+                        <figure class="theme-product">
+                           <div class="theme-product-img">
+                              <a href="#" title="Chamarel Cross Front Multifit Singlet Top" class="theme-product-link">
+                              <img src="images/black-friday-sale-01.png" alt="black-friday-sale-01" />
+                              </a>
+                              <a href="#" title="View Details" class="theme-product-view">
+                                 <svg width="26px" height="22px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 22">
+                                    <path d="M15,1v2h11V1H15z"/>
+                                    <path d="M15,7v2h6V7H15z"/>
+                                    <path d="M0,0v11h11V0H0z M9,9H2V2h7V9z"/>
+                                    <path d="M0,15v2h26v-2H0z"/>
+                                    <path d="M0,20v2h21v-2H0z"/>
+                                 </svg>
+                              </a>
+                              <a href="#" title="Add to Cart" class="theme-product-atc">
+                                 <svg width="32px" height="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 30">
+                                    <path d="M6.6,3.8L5.7,0H0v2.5h3.7l4.1,17.2h21.4L32,3.8L6.6,3.8z M27.1,17.2H9.8L7.3,6.3l21.6,0L27.1,17.2z"/>
+                                    <polygon points="21,11 21,13 19,13 19,15 17,15 17,13 15,13 15,11 17,11 17,9 19,9 19,11 "/>
+                                    <path d="M11.3,30c-2.2,0-4.1-1.8-4.1-4.1s1.8-4.1,4.1-4.1h14.4c2.2,0,4.1,1.8,4.1,4.1S27.9,30,25.7,30c-2.2,0-4.1-1.8-4.1-4.1 c0-0.5,0.1-1.1,0.3-1.5h-6.8c0.2,0.5,0.3,1,0.3,1.5C15.4,28.2,13.6,30,11.3,30z M24.2,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C24.8,24.4,24.2,25.1,24.2,25.9z M9.8,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C10.5,24.4,9.8,25.1,9.8,25.9z"/>
+                                 </svg>
+                              </a>
+                           </div>
+                           <figcaption>
+                              <h6 class="theme-product-title"><a href="#" title="Chamarel Cross Front Multifit Singlet Top">Chamarel Cross Front Multifit Singlet Top</a></h6>
+                              <span class="theme-product-price">&#8377; £58.00</span>
+                           </figcaption>
+                        </figure>
+                     </div>
+                     <div class="item">
+                        <figure class="theme-product">
+                           <div class="theme-product-img">
+                              <a href="#" title="Eco Essentials Square Neck Bra" class="theme-product-link">
+                              <img src="images/black-friday-sale-02.png" alt="black-friday-sale-02" />
+                              </a>
+                              <a href="#" title="View Details" class="theme-product-view">
+                                 <svg width="26px" height="22px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 22">
+                                    <path d="M15,1v2h11V1H15z"/>
+                                    <path d="M15,7v2h6V7H15z"/>
+                                    <path d="M0,0v11h11V0H0z M9,9H2V2h7V9z"/>
+                                    <path d="M0,15v2h26v-2H0z"/>
+                                    <path d="M0,20v2h21v-2H0z"/>
+                                 </svg>
+                              </a>
+                              <a href="#" title="Add to Cart" class="theme-product-atc">
+                                 <svg width="32px" height="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 30">
+                                    <path d="M6.6,3.8L5.7,0H0v2.5h3.7l4.1,17.2h21.4L32,3.8L6.6,3.8z M27.1,17.2H9.8L7.3,6.3l21.6,0L27.1,17.2z"/>
+                                    <polygon points="21,11 21,13 19,13 19,15 17,15 17,13 15,13 15,11 17,11 17,9 19,9 19,11 "/>
+                                    <path d="M11.3,30c-2.2,0-4.1-1.8-4.1-4.1s1.8-4.1,4.1-4.1h14.4c2.2,0,4.1,1.8,4.1,4.1S27.9,30,25.7,30c-2.2,0-4.1-1.8-4.1-4.1 c0-0.5,0.1-1.1,0.3-1.5h-6.8c0.2,0.5,0.3,1,0.3,1.5C15.4,28.2,13.6,30,11.3,30z M24.2,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C24.8,24.4,24.2,25.1,24.2,25.9z M9.8,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C10.5,24.4,9.8,25.1,9.8,25.9z"/>
+                                 </svg>
+                              </a>
+                           </div>
+                           <figcaption>
+                              <h6 class="theme-product-title"><a href="#" title="Eco Essentials Square Neck Bra">Eco Essentials Square Neck Bra</a></h6>
+                              <span class="theme-product-price">&#8377; £58.00</span>
+                           </figcaption>
+                        </figure>
+                     </div>
+                     <div class="item">
+                        <figure class="theme-product">
+                           <div class="theme-product-img">
+                              <a href="#" title="Amazing Lace High Waist Pant With Ladder Lace" class="theme-product-link">
+                              <img src="images/black-friday-sale-03.png" alt="black-friday-sale-03" />
+                              </a>
+                              <a href="#" title="View Details" class="theme-product-view">
+                                 <svg width="26px" height="22px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 22">
+                                    <path d="M15,1v2h11V1H15z"/>
+                                    <path d="M15,7v2h6V7H15z"/>
+                                    <path d="M0,0v11h11V0H0z M9,9H2V2h7V9z"/>
+                                    <path d="M0,15v2h26v-2H0z"/>
+                                    <path d="M0,20v2h21v-2H0z"/>
+                                 </svg>
+                              </a>
+                              <a href="#" title="Add to Cart" class="theme-product-atc">
+                                 <svg width="32px" height="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 30">
+                                    <path d="M6.6,3.8L5.7,0H0v2.5h3.7l4.1,17.2h21.4L32,3.8L6.6,3.8z M27.1,17.2H9.8L7.3,6.3l21.6,0L27.1,17.2z"/>
+                                    <polygon points="21,11 21,13 19,13 19,15 17,15 17,13 15,13 15,11 17,11 17,9 19,9 19,11 "/>
+                                    <path d="M11.3,30c-2.2,0-4.1-1.8-4.1-4.1s1.8-4.1,4.1-4.1h14.4c2.2,0,4.1,1.8,4.1,4.1S27.9,30,25.7,30c-2.2,0-4.1-1.8-4.1-4.1 c0-0.5,0.1-1.1,0.3-1.5h-6.8c0.2,0.5,0.3,1,0.3,1.5C15.4,28.2,13.6,30,11.3,30z M24.2,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C24.8,24.4,24.2,25.1,24.2,25.9z M9.8,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C10.5,24.4,9.8,25.1,9.8,25.9z"/>
+                                 </svg>
+                              </a>
+                           </div>
+                           <figcaption>
+                              <h6 class="theme-product-title"><a href="#" title="Amazing Lace High Waist Pant With Ladder Lace">Amazing Lace High Waist Pant With Ladder Lace</a></h6>
+                              <span class="theme-product-price">&#8377; £50.00</span>
+                           </figcaption>
+                        </figure>
+                     </div>
+                     <div class="item">
+                        <figure class="theme-product">
+                           <div class="theme-product-img">
+                              <a href="#" title="Eco Essentials Frill One Piece" class="theme-product-link">
+                              <img src="images/black-friday-sale-04.png" alt="black-friday-sale-04" />
+                              </a>
+                              <a href="#" title="View Details" class="theme-product-view">
+                                 <svg width="26px" height="22px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 22">
+                                    <path d="M15,1v2h11V1H15z"/>
+                                    <path d="M15,7v2h6V7H15z"/>
+                                    <path d="M0,0v11h11V0H0z M9,9H2V2h7V9z"/>
+                                    <path d="M0,15v2h26v-2H0z"/>
+                                    <path d="M0,20v2h21v-2H0z"/>
+                                 </svg>
+                              </a>
+                              <a href="#" title="Add to Cart" class="theme-product-atc">
+                                 <svg width="32px" height="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 30">
+                                    <path d="M6.6,3.8L5.7,0H0v2.5h3.7l4.1,17.2h21.4L32,3.8L6.6,3.8z M27.1,17.2H9.8L7.3,6.3l21.6,0L27.1,17.2z"/>
+                                    <polygon points="21,11 21,13 19,13 19,15 17,15 17,13 15,13 15,11 17,11 17,9 19,9 19,11 "/>
+                                    <path d="M11.3,30c-2.2,0-4.1-1.8-4.1-4.1s1.8-4.1,4.1-4.1h14.4c2.2,0,4.1,1.8,4.1,4.1S27.9,30,25.7,30c-2.2,0-4.1-1.8-4.1-4.1 c0-0.5,0.1-1.1,0.3-1.5h-6.8c0.2,0.5,0.3,1,0.3,1.5C15.4,28.2,13.6,30,11.3,30z M24.2,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C24.8,24.4,24.2,25.1,24.2,25.9z M9.8,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C10.5,24.4,9.8,25.1,9.8,25.9z"/>
+                                 </svg>
+                              </a>
+                           </div>
+                           <figcaption>
+                              <h6 class="theme-product-title"><a href="#" title="Eco Essentials Frill One Piece">Eco Essentials Frill One Piece</a></h6>
+                              <span class="theme-product-price">&#8377; £74.00</span>
+                           </figcaption>
+                        </figure>
+                     </div>
+                     <div class="item">
+                        <figure class="theme-product">
+                           <div class="theme-product-img">
+                              <a href="#" title="Chamarel Cross Front Multifit Singlet Top" class="theme-product-link">
+                              <img src="images/black-friday-sale-01.png" alt="black-friday-sale-01" />
+                              </a>
+                              <a href="#" title="View Details" class="theme-product-view">
+                                 <svg width="26px" height="22px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 22">
+                                    <path d="M15,1v2h11V1H15z"/>
+                                    <path d="M15,7v2h6V7H15z"/>
+                                    <path d="M0,0v11h11V0H0z M9,9H2V2h7V9z"/>
+                                    <path d="M0,15v2h26v-2H0z"/>
+                                    <path d="M0,20v2h21v-2H0z"/>
+                                 </svg>
+                              </a>
+                              <a href="#" title="Add to Cart" class="theme-product-atc">
+                                 <svg width="32px" height="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 30">
+                                    <path d="M6.6,3.8L5.7,0H0v2.5h3.7l4.1,17.2h21.4L32,3.8L6.6,3.8z M27.1,17.2H9.8L7.3,6.3l21.6,0L27.1,17.2z"/>
+                                    <polygon points="21,11 21,13 19,13 19,15 17,15 17,13 15,13 15,11 17,11 17,9 19,9 19,11 "/>
+                                    <path d="M11.3,30c-2.2,0-4.1-1.8-4.1-4.1s1.8-4.1,4.1-4.1h14.4c2.2,0,4.1,1.8,4.1,4.1S27.9,30,25.7,30c-2.2,0-4.1-1.8-4.1-4.1 c0-0.5,0.1-1.1,0.3-1.5h-6.8c0.2,0.5,0.3,1,0.3,1.5C15.4,28.2,13.6,30,11.3,30z M24.2,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C24.8,24.4,24.2,25.1,24.2,25.9z M9.8,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C10.5,24.4,9.8,25.1,9.8,25.9z"/>
+                                 </svg>
+                              </a>
+                           </div>
+                           <figcaption>
+                              <h6 class="theme-product-title"><a href="#" title="Chamarel Cross Front Multifit Singlet Top">Chamarel Cross Front Multifit Singlet Top</a></h6>
+                              <span class="theme-product-price">&#8377; £58.00</span>
+                           </figcaption>
+                        </figure>
+                     </div>
+                     <div class="item">
+                        <figure class="theme-product">
+                           <div class="theme-product-img">
+                              <a href="#" title="BANDHGALA5" class="theme-product-link">
+                              <img src="images/black-friday-sale-02.png" alt="black-friday-sale-02" />
+                              </a>
+                              <a href="#" title="View Details" class="theme-product-view">
+                                 <svg width="26px" height="22px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 22">
+                                    <path d="M15,1v2h11V1H15z"/>
+                                    <path d="M15,7v2h6V7H15z"/>
+                                    <path d="M0,0v11h11V0H0z M9,9H2V2h7V9z"/>
+                                    <path d="M0,15v2h26v-2H0z"/>
+                                    <path d="M0,20v2h21v-2H0z"/>
+                                 </svg>
+                              </a>
+                              <a href="#" title="Add to Cart" class="theme-product-atc">
+                                 <svg width="32px" height="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 30">
+                                    <path d="M6.6,3.8L5.7,0H0v2.5h3.7l4.1,17.2h21.4L32,3.8L6.6,3.8z M27.1,17.2H9.8L7.3,6.3l21.6,0L27.1,17.2z"/>
+                                    <polygon points="21,11 21,13 19,13 19,15 17,15 17,13 15,13 15,11 17,11 17,9 19,9 19,11 "/>
+                                    <path d="M11.3,30c-2.2,0-4.1-1.8-4.1-4.1s1.8-4.1,4.1-4.1h14.4c2.2,0,4.1,1.8,4.1,4.1S27.9,30,25.7,30c-2.2,0-4.1-1.8-4.1-4.1 c0-0.5,0.1-1.1,0.3-1.5h-6.8c0.2,0.5,0.3,1,0.3,1.5C15.4,28.2,13.6,30,11.3,30z M24.2,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C24.8,24.4,24.2,25.1,24.2,25.9z M9.8,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C10.5,24.4,9.8,25.1,9.8,25.9z"/>
+                                 </svg>
+                              </a>
+                           </div>
+                           <figcaption>
+                              <h6 class="theme-product-title"><a href="#" title="Eco Essentials Square Neck Bra">Eco Essentials Square Neck Bra</a></h6>
+                              <span class="theme-product-price">&#8377; £58.00</span>
+                           </figcaption>
+                        </figure>
+                     </div>
+                     <div class="item">
+                        <figure class="theme-product">
+                           <div class="theme-product-img">
+                              <a href="#" title="Amazing Lace High Waist Pant With Ladder Lace" class="theme-product-link">
+                              <img src="images/black-friday-sale-03.png" alt="black-friday-sale-03" />
+                              </a>
+                              <a href="#" title="View Details" class="theme-product-view">
+                                 <svg width="26px" height="22px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 22">
+                                    <path d="M15,1v2h11V1H15z"/>
+                                    <path d="M15,7v2h6V7H15z"/>
+                                    <path d="M0,0v11h11V0H0z M9,9H2V2h7V9z"/>
+                                    <path d="M0,15v2h26v-2H0z"/>
+                                    <path d="M0,20v2h21v-2H0z"/>
+                                 </svg>
+                              </a>
+                              <a href="#" title="Add to Cart" class="theme-product-atc">
+                                 <svg width="32px" height="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 30">
+                                    <path d="M6.6,3.8L5.7,0H0v2.5h3.7l4.1,17.2h21.4L32,3.8L6.6,3.8z M27.1,17.2H9.8L7.3,6.3l21.6,0L27.1,17.2z"/>
+                                    <polygon points="21,11 21,13 19,13 19,15 17,15 17,13 15,13 15,11 17,11 17,9 19,9 19,11 "/>
+                                    <path d="M11.3,30c-2.2,0-4.1-1.8-4.1-4.1s1.8-4.1,4.1-4.1h14.4c2.2,0,4.1,1.8,4.1,4.1S27.9,30,25.7,30c-2.2,0-4.1-1.8-4.1-4.1 c0-0.5,0.1-1.1,0.3-1.5h-6.8c0.2,0.5,0.3,1,0.3,1.5C15.4,28.2,13.6,30,11.3,30z M24.2,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C24.8,24.4,24.2,25.1,24.2,25.9z M9.8,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C10.5,24.4,9.8,25.1,9.8,25.9z"/>
+                                 </svg>
+                              </a>
+                           </div>
+                           <figcaption>
+                              <h6 class="theme-product-title"><a href="#" title="Amazing Lace High Waist Pant With Ladder Lace">Amazing Lace High Waist Pant With Ladder Lace</a></h6>
+                              <span class="theme-product-price">&#8377; £50.00</span>
+                           </figcaption>
+                        </figure>
+                     </div>
+                     <div class="item">
+                        <figure class="theme-product">
+                           <div class="theme-product-img">
+                              <a href="#" title="Eco Essentials Frill One Piece" class="theme-product-link">
+                              <img src="images/black-friday-sale-04.png" alt="black-friday-sale-04" />
+                              </a>
+                              <a href="#" title="View Details" class="theme-product-view">
+                                 <svg width="26px" height="22px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 26 22">
+                                    <path d="M15,1v2h11V1H15z"/>
+                                    <path d="M15,7v2h6V7H15z"/>
+                                    <path d="M0,0v11h11V0H0z M9,9H2V2h7V9z"/>
+                                    <path d="M0,15v2h26v-2H0z"/>
+                                    <path d="M0,20v2h21v-2H0z"/>
+                                 </svg>
+                              </a>
+                              <a href="#" title="Add to Cart" class="theme-product-atc">
+                                 <svg width="32px" height="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 30">
+                                    <path d="M6.6,3.8L5.7,0H0v2.5h3.7l4.1,17.2h21.4L32,3.8L6.6,3.8z M27.1,17.2H9.8L7.3,6.3l21.6,0L27.1,17.2z"/>
+                                    <polygon points="21,11 21,13 19,13 19,15 17,15 17,13 15,13 15,11 17,11 17,9 19,9 19,11 "/>
+                                    <path d="M11.3,30c-2.2,0-4.1-1.8-4.1-4.1s1.8-4.1,4.1-4.1h14.4c2.2,0,4.1,1.8,4.1,4.1S27.9,30,25.7,30c-2.2,0-4.1-1.8-4.1-4.1 c0-0.5,0.1-1.1,0.3-1.5h-6.8c0.2,0.5,0.3,1,0.3,1.5C15.4,28.2,13.6,30,11.3,30z M24.2,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C24.8,24.4,24.2,25.1,24.2,25.9z M9.8,25.9c0,0.8,0.7,1.5,1.5,1.5 c0.8,0,1.5-0.7,1.5-1.5c0-0.8-0.7-1.5-1.5-1.5C10.5,24.4,9.8,25.1,9.8,25.9z"/>
+                                 </svg>
+                              </a>
+                           </div>
+                           <figcaption>
+                              <h6 class="theme-product-title"><a href="#" title="Eco Essentials Frill One Piece">Eco Essentials Frill One Piece</a></h6>
+                              <span class="theme-product-price">&#8377; £74.00</span>
+                           </figcaption>
+                        </figure>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- && Black Friday Sale  -->
+
+      <!-- marquee  -->
+      <section class="marquee-section">
+         <div class="marquee-images">
+            <img src="images/marquee-image.png" alt="marquee-image">
+            <img src="images/marquee-image-1.png" alt="marquee-image-1">
+            <img src="images/marquee-image-2.png" alt="marquee-image-2">
+            <img src="images/marquee-image-3.png" alt="marquee-image-3">
+         </div>
+         <div class="marquee">
+            <div class="scroll">
+               <div>
+                  <h3 class="category">Black</h3>
+                  <h3 class="category">Friday</h3>
+                  <h3 class="category">Black</h3>
+                  <h3 class="category">Friday</h3>
+                  <h3 class="category">Black</h3>
+                  <h3 class="category">Friday</h3>
+                  <h3 class="category">Black</h3>
+                  <h3 class="category">Friday</h3>
+               </div>
+               <div>
+                  <h3 class="category">Black</h3>
+                  <h3 class="category">Friday</h3>
+                  <h3 class="category">Black</h3>
+                  <h3 class="category">Friday</h3>
+                  <h3 class="category">Black</h3>
+                  <h3 class="category">Friday</h3>
+                  <h3 class="category">Black</h3>
+                  <h3 class="category">Friday</h3>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- && marquee  -->
+
+      <!-- product-details  -->
+      <section class="product-details pt-90 pb-90">
+         <div class="container flex-js">
+         <div class="product-image-container">
+            <div class="product-image-slider">
+               <div class="slide-item" href="images/product-details-img-01.png" data-fancybox="gallery">
+                  <img src="images/product-details-img-01.png" alt="">
+               </div>
+               <div class="slide-item" href="images/product-details-img-02.png" data-fancybox="gallery">
+                  <img src="images/product-details-img-02.png" alt="">
+               </div>
+               <div class="slide-item" href="images/product-details-img-01.png" data-fancybox="gallery">
+                  <img src="images/product-details-img-01.png" alt="">
+               </div>
+               <div class="slide-item" href="images/product-details-img-02.png" data-fancybox="gallery">
+                  <img src="images/product-details-img-02.png" alt="">
+               </div>
+            </div>
+         </div>
+         <div class="product-info">
+            <div class="product-feature">Sea Level Swim</div>
+            <h1 class="product-title">Messina Panel Line Multifit One Piece</h1>
+            <div class="product-price"><span>£107.00</span></div>
+            <div class="product-review">
+               <img src="images/stars.png" alt="stars">
+               <span class="review-desc">1 review</span>
+            </div>
+            <div class="product-color">
+               <span>Color: </span>
+               <span>Vermont</span>
+            </div>
+            <div class="product-thumbnails-slider">
+               <div class="slide-item">
+                  <figure class="product-thumbnails-image"><img src="images/product-details-img-01.png" alt=""></figure>
+               </div>
+               <div class="slide-item">
+                  <figure class="product-thumbnails-image"><img src="images/product-details-img-02.png" alt=""></figure>
+               </div>
+               <div class="slide-item">
+                  <figure class="product-thumbnails-image"><img src="images/product-details-img-01.png" alt=""></figure>
+               </div>
+               <div class="slide-item">
+                  <figure class="product-thumbnails-image"><img src="images/product-details-img-02.png" alt=""></figure>
+               </div>
+            </div>
+            <div class="product-quantity-size">
+               <div class="product-size-container">
+                  <label for="sel_size">Size</label>
+                  <div class="size-number">
+                     <span>4</span>
+                     <span>6</span>
+                     <span><s>8</s></span>
+                     <span>10</span>
+                     <span><s>2</s></span>
+                  </div>
+               </div>
+            </div>
+            <div class="quantity-box-container">
+               <div class="input-quantity-box">
+                  <span class="quantity-minus"></span>
+                  <input id="txt_quantity" type="number" value="1" class="input-quantity">
+                  <span class="quantity-plus"></span>
+               </div>
+               <div class="product-atc">
+                  <label class="button button-primary"><input type="submit" value="Add to Cart" class="submit"></label>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- && product-details  -->
+
+      <!-- tab-section  -->
+      <section id="tab-section">
+         <div class="call_bg_img pb_bg_section" style="background: url(images/tab-img-01.png) no-repeat center fixed">
+            <div class="container">
+               <div class="section-heading">
+                  <h2 class="h2">from the megazine</h2>
+                  <a href="#" title="View all">View all</a>
+               </div>
+               <div class="tab-content mt-3" id="myTabContent">
+                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                     <span>may 10, 2022</span>
+                     <h2 class="mb-3">Our high summer lookbook</h2>
+                     <a href="#" title="Read More">Read More</a>
+                  </div>
+                  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                     <span>may 10, 2022</span>
+                     <h2 class="mb-3">Overswim, light & breathable in the summer heat</h2>
+                     <a href="#" title="Read More">Read More</a>
+                  </div>
+                  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                     <span>may 10, 2022</span>
+                     <h2 class="mb-3">Fairy floss summer skies</h2>
+                     <a href="#" title="Read More">Read More</a>
+                  </div>
+               </div>
+               <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                     <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Our high summer lookbook</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                     <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Overswim, light & breathable in the summer heat</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                     <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Fairy floss summer skies</button>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <!-- && tab-section  -->
+
+      <!-- footer  -->
+      <footer class="theme-footer pt-90 pb-90">
+         <section class="theme-footer-top">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 tablet-margin">
+                     <h4 class="footer-title">Talk about your store</h4>
+                     <p>Sea Level Swim features an extensive selection of precision contouring and body moulded swimsuits made from regenerated nylon. The result is a beautiful line up of luxurious high quality pieces that feel right for the times and designed to last.This is a demonstration of the Showcase theme for Shopify. Swimwear kindly donated by Sea Level Swim.</p>
+                     <img src="images/cursive-writting-img.png" alt="Footer Logo">
+                  </div>
+                  <div class="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-2 col-xl-2">
+                     <h4 class="footer-title">Shop</h4>
+                     <div class="quick-links mobile-popup popup1">
+                        <span class="mobile-popup-close"></span>
+                        <ul class="list-none">
+                           <li><a href="#" title="One Pieces">One Pieces</a></li>
+                           <li><a href="#" title="Swimwear Tops">Swimwear Tops</a></li>
+                           <li><a href="#" title="Swim Bottoms">Swim Bottoms</a></li>
+                           <li><a href="#" title="Tankinis">Tankinis</a></li>
+                           <li><a href="#" title="Surf Suits & Rash vests">Surf Suits & Rash vests</a></li>
+                           <li><a href="#" title="Sustainable Swim">Sustainable Swim</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-12 col-xs-12 col-sm-12 col-md-3 col-lg-2 col-xl-2">
+                     <h4 class="footer-title">Help</h4>
+                     <div class="quick-links mobile-popup popup1">
+                        <ul class="list-none">
+                           <li><a href="#" title="Search">Search</a></li>
+                           <li><a href="#" title="About Us">About Us</a></li>
+                           <li><a href="#" title="Contact us">Contact us</a></li>
+                           <li><a href="#" title="FAQs">FAQs</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                     <h4 class="footer-title">Newsletter</h4>
+                     <p>Sign up for our newsletter to only receive good things.</p>
+                     <form>
+                        <div class="input-box">
+                           <input type="text" class="input" placeholder="Enter Your Email Address" />
+                        </div>
+                        <label class="newsletter-submit-btn">
+                        <input type="submit" value="Subscribe" class="newsletter-submit" />
+                        <img src="images/ArrowRight.png">
+                        </label>
+                     </form>
+                     <div class="footer-social">
+                        <ul class="list-flex">
+                           <li>
+                              <a href="#" target="_blank" title="Facebook">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="19px"  viewBox="0.5 604.5 324 604">
+                                    <path d="M303.268,944.25l16.802-109.311H215.02v-70.934c0-29.905,14.674-59.056,61.723-59.056H324.5v-93.065 c0,0-43.339-7.385-84.775-7.385c-86.512,0-143.06,52.354-143.06,147.131v83.309H0.5V944.25h96.165v264.25H215.02V944.25H303.268z"/>
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#" target="_blank" title="Twitter">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="15px" viewBox="0.5 604.5 604 490">
+                                    <path d="M542.415,726.617c0.384,5.359,0.384,10.719,0.384,16.078c0,163.46-124.557,351.805-352.207,351.805 c-70.135,0-135.287-20.289-190.092-55.507c9.965,1.147,19.545,1.53,29.893,1.53c57.87,0,111.143-19.522,153.683-52.828 c-54.421-1.148-100.028-36.75-115.742-85.75c7.666,1.147,15.331,1.914,23.379,1.914c11.114,0,22.229-1.532,32.576-4.21 c-56.721-11.486-99.263-61.251-99.263-121.353v-1.531c16.479,9.188,35.643,14.93,55.954,15.695 c-33.343-22.204-55.188-60.102-55.188-102.978c0-22.968,6.131-44.022,16.863-62.397c60.937,75.03,152.534,124.029,255.244,129.391 c-1.916-9.188-3.066-18.757-3.066-28.328c0-68.141,55.188-123.648,123.789-123.648c35.643,0,67.836,14.93,90.448,39.047 c27.977-5.359,54.804-15.695,78.565-29.859c-9.199,28.712-28.744,52.828-54.421,68.141c24.911-2.679,49.056-9.57,71.284-19.141 C587.64,687.188,566.56,709.006,542.415,726.617L542.415,726.617z"/>
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#" target="_blank" title="LinkedIn">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="17px" height="17px" viewBox="0.5 604.5 528 528">
+                                    <path d="M118.687,1132.5H9.221V779.975h109.466V1132.5z M63.896,731.889c-35.004,0-63.396-28.995-63.396-64 c0.005-35.014,28.392-63.395,63.404-63.389c35.005,0.005,63.381,28.382,63.386,63.389 C127.291,702.894,98.887,731.889,63.896,731.889z M528.382,1132.5H419.152V960.894c0-40.898-0.825-93.347-56.914-93.347 c-56.913,0-65.634,44.435-65.634,90.4V1132.5H187.256V779.975h104.987v48.088h1.533c14.614-27.697,50.313-56.927,103.573-56.927 c110.786,0,131.151,72.956,131.151,167.718V1132.5H528.382z"/>
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#" target="_blank" title="Instagram">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="17px" height="17px" viewBox="0.5 604.5 528 528">
+                                    <path d="M264.559,733.127c-74.916,0-135.342,60.441-135.342,135.373s60.427,135.372,135.342,135.372s135.342-60.44,135.342-135.372 S339.475,733.127,264.559,733.127z M264.559,956.51c-48.413,0-87.99-39.469-87.99-88.01s39.46-88.01,87.99-88.01 c48.53,0,87.99,39.469,87.99,88.01S312.972,956.51,264.559,956.51L264.559,956.51z M437.005,727.59 c0,17.555-14.135,31.575-31.567,31.575c-17.552,0-31.568-14.138-31.568-31.575s14.135-31.575,31.568-31.575 C422.87,696.015,437.005,710.152,437.005,727.59z M526.645,759.637c-2.003-42.297-11.661-79.763-42.641-110.631 c-30.86-30.869-68.319-40.529-110.605-42.65c-43.583-2.474-174.213-2.474-217.796,0c-42.169,2.003-79.627,11.664-110.606,42.532 c-30.979,30.868-40.52,68.334-42.641,110.63c-2.474,43.594-2.474,174.253,0,217.846c2.002,42.297,11.661,79.763,42.641,110.632 c30.979,30.867,68.319,40.529,110.606,42.649c43.583,2.475,174.213,2.475,217.796,0c42.286-2.002,79.745-11.664,110.605-42.649 c30.861-30.869,40.52-68.335,42.641-110.632C529.118,933.771,529.118,803.229,526.645,759.637z M470.34,1024.138 c-9.188,23.092-26.974,40.883-50.179,50.19c-34.748,13.784-117.202,10.604-155.602,10.604s-120.972,3.063-155.603-10.604 c-23.087-9.19-40.874-26.98-50.179-50.19C44.996,989.381,48.176,906.908,48.176,868.5s-3.063-120.998,10.601-155.637 c9.188-23.093,26.975-40.883,50.179-50.191c34.749-13.784,117.203-10.604,155.603-10.604s120.971-3.063,155.602,10.604 c23.087,9.189,40.873,26.98,50.179,50.191c13.782,34.756,10.602,117.229,10.602,155.637S484.122,989.499,470.34,1024.138z"/>
+                                 </svg>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#" target="_blank" title="YouTube">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="14px" viewBox="0.5 604.5 572 402">
+                                    <path d="M560.548,667.4c-6.578-24.76-25.96-44.258-50.571-50.876C465.37,604.5,286.5,604.5,286.5,604.5s-178.869,0-223.477,12.024 c-24.61,6.618-43.992,26.116-50.571,50.876C0.5,712.275,0.5,805.906,0.5,805.906s0,93.631,11.953,138.507 c6.579,24.76,25.961,43.446,50.571,50.063C107.632,1006.5,286.5,1006.5,286.5,1006.5s178.87,0,223.476-12.023 c24.611-6.617,43.993-25.304,50.571-50.063C572.5,899.537,572.5,805.906,572.5,805.906S572.5,712.275,560.548,667.4z M228,890.916 v-170.02l149.5,85.013L228,890.916L228,890.916z"/>
+                                 </svg>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div class="theme-footer-signature">
+            <div class="container flex-ac-js">
+               <div class="signature">
+                  <p>&copy; 2023 mila. Powered by Shopify</p>
+               </div>
+               <div class="move-top flex">
+                  <img src="images/footer-card-img.png" alt="Footer Card">
+                  <button title="Go to Top">
+                     Go to Top
+                     <svg xmlns="http://www.w3.org/2000/svg" width="11px" height="14px" viewBox="0 0 11 14">
+                        <path d="M4.654,0.353L0.35,4.692c-0.467,0.471-0.467,1.233,0,1.704s1.224,0.471,1.691,0 l2.263-2.281v8.68C4.304,13.461,4.839,14,5.5,14c0.661,0,1.196-0.539,1.196-1.205v-8.68l2.264,2.281 c0.467,0.471,1.224,0.471,1.691,0C10.883,6.161,11,5.852,11,5.544c0-0.309-0.117-0.617-0.35-0.852L6.345,0.353 C5.878-0.118,5.121-0.118,4.654,0.353z"/>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- && footer  -->
+
+      <!--  Mini Cart -->
+      <div class="cart_sidebar_main cart-sticky-form-scroll">
+         <div class="side_sticky_div" id="side_mini_cart">
+            <div class="h3 text-center cartmaintitle">
+               Your Cart
+            </div>
+            <div class="cartitem_empty" style="display: none">
+               <div class="cart_empty_content text-center">
+                  <img src="images/emptycart.png" alt=""/>
+                  <div class="carttitle">Unfortunately, Your Cart Is Empty</div>
+                  <div class="cartsubtitle">Please Add Something In Your Cart</div>
+                  <div class="back_shoping_btn">
+                     <a href="#" class="btn btn-primary" title="Continue Shopping">Continue Shopping</a>
+                  </div>
+               </div>
+            </div>
+            <div class="cartitem_section">
+               <ul class="woocommerce-mini-cart cart_list product_list_widget ">
+                  <li class="woocommerce-mini-cart-item mini_cart_item">
+                     <div class="minicart_close">
+                        <a href="#" class="remove remove_from_cart_button"><span class="fa fa-times-circle"></span></a>
+                     </div>
+                     <div class="minicart_img">		
+                        <a href="#">
+                        <img src="images/product-details-img-01.png" alt="" />								
+                        </a>
+                     </div>
+                     <div class="minicartdes">
+                        <a href="#">
+                        Eco Essentials Square Neck Bra
+                        </a>
+                        <div class="price">
+                           <span class="quantity">
+                           1 x 
+                           <span class="woocommerce-Price-amount amount">
+                           <span class="woocommerce-Price-currencySymbol">£</span>
+                           58.00
+                           </span>
+                           </span>
+                           <span class="woocommerce-Price-amount amount">
+                           <span class="woocommerce-Price-currencySymbol">£</span>
+                           58.00
+                           </span>							
+                        </div>
+                     </div>
+                  </li>
+                  <li class="woocommerce-mini-cart-item mini_cart_item">
+                     <div class="minicart_close">
+                        <a href="#" class="remove remove_from_cart_button"><span class="fa fa-times-circle"></span></a>
+                     </div>
+                     <div class="minicart_img">		
+                        <a href="#">
+                        <img src="images/product-details-img-02.png" alt="" />						
+                        </a>
+                     </div>
+                     <div class="minicartdes">
+                        <a href="#">
+                        Eco Essentials Square Neck Bra
+                        </a>
+                        <div class="price">
+                           <span class="quantity">
+                           1 x 
+                           <span class="woocommerce-Price-amount amount">
+                           <span class="woocommerce-Price-currencySymbol">£</span>
+                           58.00
+                           </span>
+                           </span>
+                           <span class="woocommerce-Price-amount amount">
+                           <span class="woocommerce-Price-currencySymbol">£</span>
+                           58.00
+                           </span>							
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+               <p class="woocommerce-mini-cart__total total">
+                  <strong>Subtotal:</strong>
+                  <span class="woocommerce-Price-amount amount">
+                  <span class="woocommerce-Price-currencySymbol">£</span>
+                  116.00
+                  </span>
+               </p>
+               <div class="buttons">
+                  <div class="cart-minproduct">
+                     <a href="#" class="wc-forward btn btn-primary button">View Cart</a>
+                     <a href="#" class="checkout wc-forward btn btn-primary btn-black button">Checkout</a>
+                  </div>
+               </div>
+               <div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- && Mini Cart -->
+
+   </body>
+
+   <!-- Scripts -->
+   <script src="js/jquery-3.6.0.min.js"></script> 
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery.mCustomScrollbar.min.js"></script>
+   <script src="js/slick.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/jquery.fancybox.min.js"></script>
+   <script src="js/custom.js"></script>
+</html>
